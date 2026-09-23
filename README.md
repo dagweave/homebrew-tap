@@ -2,7 +2,7 @@
 
     brew install dagweave/tap/dagweave
 
-Dagweave Local runs Argo workflows on your own machine. You run the same
+Dagweave Local runs Argo Workflows locally. You run the same
 commands you would with the argo CLI, typing `dagweave` where you would type
 `argo`. It works on macOS and Linux, on Intel and ARM.
 

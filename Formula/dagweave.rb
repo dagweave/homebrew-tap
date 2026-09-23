@@ -1,6 +1,6 @@
 # Written by scripts/homebrew-formula.sh in dagweave/local on every release, so edit that instead.
 class Dagweave < Formula
-  desc "Run Argo workflows on your own machine"
+  desc "Run Argo Workflows locally"
   homepage "https://dagweave.com/local/"
   version "0.1.0-rc.3"
   license :cannot_represent
