@@ -2,28 +2,28 @@
 class Dagweave < Formula
   desc "Run Argo Workflows locally"
   homepage "https://dagweave.com/local/"
-  version "0.1.0-rc.5"
+  version "0.1.0-rc.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.5/dagweave-darwin-arm64"
-      sha256 "a0e716c218925bf6af90eb99709b70b9ab3999a3819c08c52f539a0014f2d7b9"
+      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.6/dagweave-darwin-arm64"
+      sha256 "9b2b2eccc83ccac224de4efaad4f66104fad3b325876dde203826d432f91d4d3"
     end
     on_intel do
-      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.5/dagweave-darwin-amd64"
-      sha256 "4ff922202424ef65cabf1358b9f43800c57b5feb9be725b4846a436432ac4593"
+      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.6/dagweave-darwin-amd64"
+      sha256 "43e5fac7e41a72882d93f6f501d4df44a4d603ba5be2872a805fdebb3e1654e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.5/dagweave-linux-arm64"
-      sha256 "0002be24c6f8bbde225b669696b60f6b64414b9761fba45dc1bdddb69ee3901e"
+      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.6/dagweave-linux-arm64"
+      sha256 "8dea9c97dd2cabb08741767e790a5f8a91de5297fe1a4e86246c757334a3ac61"
     end
     on_intel do
-      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.5/dagweave-linux-amd64"
-      sha256 "e6ff7119456356e79981f7a3b7782a36e40d25d644b3d0092612a1fdf8ec4c77"
+      url "https://github.com/dagweave/local-releases/releases/download/v0.1.0-rc.6/dagweave-linux-amd64"
+      sha256 "617dbfe3e314f01fd60e0edd1c2d65fb82473dae635e8bfea7dc392f07f1ef37"
     end
   end
 
